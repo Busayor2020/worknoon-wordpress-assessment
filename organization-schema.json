@@ -1,0 +1,83 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "@id": "https://worknoon.com/#organization",
+  "name": "Worknoon",
+  "legalName": "Worknoon Inc.",
+  "url": "https://worknoon.com",
+  "logo": {
+    "@type": "ImageObject",
+    "url": "https://worknoon.laluxuryhair.com/wp-content/uploads/2025/05/Worknoon_Logo_tr-1-scaled.png",
+    "width": 400,
+    "height": 120
+  },
+  "description": "Worknoon is a global coworking marketplace that helps freelancers, startups, and growing teams discover and book premium coworking spaces, private offices, and meeting rooms worldwide.",
+  "foundingDate": "2021",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "3280 Peachtree Rd NE",
+    "addressLocality": "Atlanta",
+    "addressRegion": "Georgia",
+    "postalCode": "30305",
+    "addressCountry": "US"
+  },
+  "contactPoint": [
+    {
+      "@type": "ContactPoint",
+      "contactType": "customer support",
+      "email": "info@worknoon.com",
+      "availableLanguage": "English"
+    }
+  ],
+  "sameAs": [
+    "https://www.linkedin.com/company/worknoonhq",
+    "https://www.instagram.com/worknoon/",
+    "https://x.com/worknoon"
+  ],
+  "knowsAbout": [
+    "Coworking Spaces",
+    "Flexible Office Space",
+    "Meeting Room Rentals",
+    "Remote Work Solutions",
+    "Workspace Booking"
+  ],
+  "areaServed": {
+    "@type": "Place",
+    "name": "Worldwide"
+  },
+  "hasOfferCatalog": {
+    "@type": "OfferCatalog",
+    "name": "Workspace Solutions",
+    "itemListElement": [
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Coworking Space",
+          "description": "Shared, flexible desk space for individuals and teams"
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Private Office",
+          "description": "Dedicated private offices for teams and businesses"
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Meeting Room",
+          "description": "Professional meeting rooms bookable by the hour"
+        }
+      }
+    ]
+  },
+  "founder": {
+    "@type": "Person",
+    "@id": "https://worknoon.com/#founder",
+    "name": "Dr. Yuan Noon"
+  }
+}

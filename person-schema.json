@@ -1,0 +1,33 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "https://worknoon.com/#founder",
+  "name": "Dr. Yuan Noon",
+  "honorificPrefix": "Dr.",
+  "givenName": "Yuan",
+  "familyName": "Noon",
+  "jobTitle": "Founder & CEO",
+  "description": "Dr. Yuan Noon is the Founder and CEO of Worknoon, a global coworking marketplace headquartered in Atlanta, Georgia. Dr. Noon founded Worknoon with the vision of making premium flexible workspaces accessible to freelancers, entrepreneurs, and growing teams worldwide.",
+  "url": "https://worknoon.com",
+  "worksFor": {
+    "@type": "Organization",
+    "@id": "https://worknoon.com/#organization",
+    "name": "Worknoon"
+  },
+  "sameAs": [
+    "https://www.linkedin.com/company/worknoonhq"
+  ],
+  "knowsAbout": [
+    "Coworking Spaces",
+    "Flexible Work",
+    "Real Estate Technology",
+    "Remote Work",
+    "Startups",
+    "Workspace Innovation"
+  ],
+  "affiliation": {
+    "@type": "Organization",
+    "@id": "https://worknoon.com/#organization",
+    "name": "Worknoon"
+  }
+}

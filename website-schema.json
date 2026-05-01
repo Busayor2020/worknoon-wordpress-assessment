@@ -1,0 +1,67 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://worknoon.com/#website",
+      "name": "Worknoon",
+      "url": "https://worknoon.com",
+      "description": "Find your perfect workspace. Discover premium coworking spaces, private offices, and meeting rooms worldwide.",
+      "inLanguage": "en-US",
+      "publisher": {
+        "@type": "Organization",
+        "@id": "https://worknoon.com/#organization"
+      },
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": {
+          "@type": "EntryPoint",
+          "urlTemplate": "https://worknoon.com/?s={search_term_string}"
+        },
+        "query-input": "required name=search_term_string"
+      },
+      "copyrightYear": "2025",
+      "copyrightHolder": {
+        "@type": "Organization",
+        "@id": "https://worknoon.com/#organization"
+      }
+    },
+    {
+      "@type": "ImageObject",
+      "@id": "https://worknoon.com/#logo",
+      "url": "https://worknoon.laluxuryhair.com/wp-content/uploads/2025/05/Worknoon_Logo_tr-1-scaled.png",
+      "contentUrl": "https://worknoon.laluxuryhair.com/wp-content/uploads/2025/05/Worknoon_Logo_tr-1-scaled.png",
+      "caption": "Worknoon Logo",
+      "inLanguage": "en-US",
+      "width": 400,
+      "height": 120
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://worknoon.com/#organization",
+      "name": "Worknoon",
+      "url": "https://worknoon.com",
+      "logo": {
+        "@id": "https://worknoon.com/#logo"
+      },
+      "image": {
+        "@id": "https://worknoon.com/#logo"
+      },
+      "email": "info@worknoon.com",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "3280 Peachtree Rd NE",
+        "addressLocality": "Atlanta",
+        "addressRegion": "Georgia",
+        "postalCode": "30305",
+        "addressCountry": "US"
+      },
+      "sameAs": [
+        "https://worknoon.com",
+        "https://www.linkedin.com/company/worknoonhq",
+        "https://www.instagram.com/worknoon/",
+        "https://x.com/worknoon"
+      ]
+    }
+  ]
+}
