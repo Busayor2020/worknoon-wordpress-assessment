@@ -1,4 +1,5 @@
 # Worknoon WordPress Developer Assessment
+
 **Developer:** Victor Busayo
 **Role Applied For:** WordPress Developer (SEO + Systems Specialist)
 **Submission Date:** May 2025
@@ -31,6 +32,7 @@ worknoon-wordpress-assessment/
 ## ⚙️ Setup Instructions
 
 ### Prerequisites
+
 - WordPress (6.x or later)
 - PHP 8.0+
 - MySQL 5.7+ or MariaDB 10.4+
@@ -39,8 +41,9 @@ worknoon-wordpress-assessment/
 ### Installation Steps
 
 1. **Clone or download this repository**
+
    ```bash
-   git clone https://github.com/[your-username]/worknoon-wordpress-assessment.git
+   git clone https://github.com/Busayor2020/worknoon-wordpress-assessment.git
    ```
 
 2. **WordPress Installation**
@@ -54,6 +57,7 @@ worknoon-wordpress-assessment/
 
 4. **Required Plugins**
    Install and activate the following plugins:
+
    ```
    - RankMath SEO            → SEO + Schema + Sitemap management
    - LiteSpeed Cache         → Full-page caching and performance optimization
@@ -92,19 +96,19 @@ worknoon-wordpress-assessment/
 
 ## 🛠 Tools & Technologies Used
 
-| Category | Tool/Technology | Purpose |
-|---|---|---|
-| CMS | WordPress 6.x | Core content management platform |
-| Theme | Golo (Workspace Demo) | Directory & listing UI framework |
-| Page Builder | Elementor | Visual landing page construction |
-| SEO | RankMath SEO | On-page SEO, schema, sitemap, GSC integration |
-| Analytics | Google Analytics 4 (GA4) | Traffic tracking and user behaviour |
-| Caching | LiteSpeed Cache | Full-page caching, image optimization, minification |
-| Contact Forms | Fluent Forms | Responsive, accessible contact form |
-| Affiliate Tracking | SliceWP | Affiliate program and partner commission tracking |
-| Schema Format | JSON-LD (Schema.org) | Structured data for Knowledge Graph entity building |
-| Version Control | Git + GitHub | Code versioning and submission |
-| Validation | Google Rich Results Test, Schema Validator | Schema accuracy testing |
+| Category           | Tool/Technology                            | Purpose                                             |
+| ------------------ | ------------------------------------------ | --------------------------------------------------- |
+| CMS                | WordPress 6.x                              | Core content management platform                    |
+| Theme              | Golo (Workspace Demo)                      | Directory & listing UI framework                    |
+| Page Builder       | Elementor                                  | Visual landing page construction                    |
+| SEO                | RankMath SEO                               | On-page SEO, schema, sitemap, GSC integration       |
+| Analytics          | Google Analytics 4 (GA4)                   | Traffic tracking and user behaviour                 |
+| Caching            | LiteSpeed Cache                            | Full-page caching, image optimization, minification |
+| Contact Forms      | Fluent Forms                               | Responsive, accessible contact form                 |
+| Affiliate Tracking | SliceWP                                    | Affiliate program and partner commission tracking   |
+| Schema Format      | JSON-LD (Schema.org)                       | Structured data for Knowledge Graph entity building |
+| Version Control    | Git + GitHub                               | Code versioning and submission                      |
+| Validation         | Google Rich Results Test, Schema Validator | Schema accuracy testing                             |
 
 ---
 
@@ -153,7 +157,7 @@ worknoon-wordpress-assessment/
 
 ---
 
-## 🤔 Section F: System Thinking & Project Reflection
+## Section F: System Thinking & Project Reflection
 
 ### Problem Overview
 
@@ -333,6 +337,6 @@ development.
 
 ---
 
-*This assessment was completed independently by Victor Busayo as part of the Worknoon
+_This assessment was completed independently by Victor Busayo as part of the Worknoon
 WordPress Developer application process. All schema, documentation, and code reflect
-original work produced for this assessment.*
+original work produced for this assessment._

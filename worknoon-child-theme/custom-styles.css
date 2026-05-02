@@ -1,0 +1,19 @@
+.place-item.layout-02 .author-avatar {
+  position: absolute;
+  top: 0;
+  right: 20px;
+  border: 2px solid #fff;
+  border-radius: 30px;
+  -webkit-transform: translate3d(0, -50%, 0);
+  -moz-transform: translate3d(0, -50%, 0);
+  -o-transform: translate3d(0, -50%, 0);
+  -ms-transform: translate3d(0, -50%, 0);
+  transform: translate3d(0, -50%, 0);
+  display: none;
+}
+
+.elementor-5073 .elementor-element.elementor-element-836d81b .fluentform-widget-wrapper .ff-el-group .ff-btn-submit {
+  background-color: black !important;
+  color: #ffffff !important;
+	border-radius: 100px !important;
+}
