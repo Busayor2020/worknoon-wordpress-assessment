@@ -11,13 +11,23 @@
 ```
 worknoon-wordpress-assessment/
 │
-├── README.md                        ← This file (Setup, Reflection, Architecture)
-├── organization-schema.json         ← Section B: Organization Schema (JSON-LD)
-├── person-schema.json               ← Section B: Person Schema (JSON-LD)
-├── website-schema.json              ← Section B: Website + Logo + sameAs Schema (JSON-LD)
-├── knowledge-panel-strategy.md      ← Section C: Knowledge Panel Optimization Strategy
-├── seo-diagnosis.md                 ← Section D: SEO Indexing Troubleshooting Guide
-└── short-answers.md                 ← Section E: Short Answer Questions
+├── README.md                          ← Setup, Reflection, Architecture (Section F)
+├── organization-schema.json           ← Section B: Organization Schema (JSON-LD)
+├── person-schema.json                 ← Section B: Person Schema (JSON-LD)
+├── website-schema.json                ← Section B: Website + Logo + sameAs Schema (JSON-LD)
+├── knowledge-panel-strategy.md        ← Section C: Knowledge Panel Strategy
+├── seo-diagnosis.md                   ← Section D: SEO Indexing Troubleshooting
+├── short-answers.md                   ← Section E: Short Answer Questions
+│
+├── golo-child-/                       ← Section A: WordPress child theme files
+│   ├── style.css                      ← Child theme declaration (parent: Golo)
+│   ├── functions.php                  ← Enqueues styles + loads schema injector
+│   ├── custom-styles.css              ← Custom CSS overrides for landing page
+│   └── schema-inject.php              ← Outputs JSON-LD schema into wp_head
+│
+└── screenshots/                       ← Section A: Visual evidence of live site
+    ├── hero-section.png               ← Hero + CTA section
+    └── full-landing-page.png          ← Full page scroll screenshots
 ```
 
 ---
